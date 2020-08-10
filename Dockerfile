@@ -1,5 +1,5 @@
-FROM adoptopenjdk/openjdk8:jdk8u252-b09-alpine
-LABEL maintainer="emmanuel.gaillardon@orange.fr"
+FROM adoptopenjdk/openjdk8:jdk8u262-b10-alpine
+LABEL maintainer="surajn79@gmail.com"
 STOPSIGNAL SIGKILL
 ENV MIRROR https://www-eu.apache.org/dist/jmeter/binaries
 ENV JMETER_VERSION 5.3
